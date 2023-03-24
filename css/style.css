@@ -15,6 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Text', sans-serif;
+    
 }
 body{
     min-height: 80vh;
@@ -31,7 +32,6 @@ body{
     align-items: center;
     gap: 5em;
     margin-top: 8em;
-    width: 100%;
 }
 .container h1{
     color: var(--White);
@@ -42,6 +42,7 @@ body{
 .time-container{
     display: flex;
     gap: 3em;
+    flex-wrap: wrap;
     
 }
 .time{
@@ -65,4 +66,17 @@ body{
 .number p{
     color: var(--Soft-red);
     font-size: 70px;
+}
+.redes{
+    margin-top: 5em;
+    display: flex;
+    gap: 1.5rem;
+}
+.redes i{
+    color: var(--White);
+    cursor: pointer;
+}
+
+@media screen and (min-width:800px) {
+  
 }
